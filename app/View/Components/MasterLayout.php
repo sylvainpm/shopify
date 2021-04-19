@@ -6,14 +6,17 @@ use Illuminate\View\Component;
 
 class MasterLayout extends Component
 {
+
+    public $title ;
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($title= "")
     {
         //
+            $this->title = $title ;
     }
 
     /**
@@ -25,4 +28,6 @@ class MasterLayout extends Component
     {
         return view('components.master-layout');
     }
+
+
 }

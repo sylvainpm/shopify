@@ -1,4 +1,4 @@
-<x-master-layout>
+<x-master-layout title=' |Accueil'>
 
     <section class="pt-5 pb-5 mt-0 align-items-center d-flex bg-dark" style="height:100vh; background-size: cover; background-image: url(https://imahttps://picsum.photos/1024);">
 
